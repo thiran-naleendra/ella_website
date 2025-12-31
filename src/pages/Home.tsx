@@ -51,53 +51,7 @@ function Home() {
 
   return (
     <>
-      {/* ✅ SEO TAGS */}
-      <Helmet>
-        <title>Sri Lanka Car Rentals, Airport Transfers & Safari Tours</title>
-
-        <meta
-          name="description"
-          content="Explore Sri Lanka with premium car rentals, reliable airport transfers from Katunayake, and unforgettable safari tours including Yala & Udawalawa."
-        />
-
-        <meta
-          name="keywords"
-          content="Sri Lanka car rental, airport transfer Sri Lanka, safari tours Sri Lanka, Yala safari, Udawalawa safari, rent car Sri Lanka"
-        />
-
-        <link rel="canonical" href="https://yourdomain.com/" />
-
-        {/* Open Graph / WhatsApp / Facebook */}
-        <meta
-          property="og:title"
-          content="Sri Lanka Tours, Airport Transfers & Safari Adventures"
-        />
-        <meta
-          property="og:description"
-          content="Premium car rentals, airport pickups, and safari adventures across Sri Lanka. Book easily via WhatsApp."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com/" />
-        <meta
-          property="og:image"
-          content="https://yourdomain.com/og-home.jpg"
-        />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Sri Lanka Tours & Safari Adventures"
-        />
-        <meta
-          name="twitter:description"
-          content="Car rentals, airport transfers, and safari tours across Sri Lanka."
-        />
-        <meta
-          name="twitter:image"
-          content="https://yourdomain.com/og-home.jpg"
-        />
-      </Helmet>
+    
       <div>
         <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-cyan-600 via-blue-700 to-blue-900">

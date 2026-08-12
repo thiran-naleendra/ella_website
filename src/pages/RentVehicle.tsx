@@ -57,7 +57,7 @@ function RentVehicle() {
           <div
             className="absolute inset-0 opacity-30"
             style={{
-              backgroundImage: 'url(https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg)',
+              backgroundImage: 'url(/vehicle-rental-hero.jpeg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -109,14 +109,17 @@ function RentVehicle() {
                 <div className="h-56 overflow-hidden">
                   <img
                     src={car.image}
-                    alt={car.name}
+                    alt={`${car.name} rental in Ella Sri Lanka`}
+                    loading="lazy"
+                    width="640"
+                    height="360"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">{car.name}</h3>
                   <p className="text-cyan-600 mb-4">{car.type}</p>
-                  <div className="text-3xl font-bold text-gray-900 mb-6">{car.price}</div>
+                  <div className="rental-price text-3xl font-bold text-gray-900 mb-6">{car.price}</div>
                   <div className="grid grid-cols-2 gap-2 mb-6">
                     {car.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center text-sm text-gray-600">
@@ -152,14 +155,17 @@ function RentVehicle() {
                 <div className="h-56 overflow-hidden">
                   <img
                     src={bike.image}
-                    alt={bike.name}
+                    alt="Scooter rental in Ella Sri Lanka"
+                    loading="lazy"
+                    width="640"
+                    height="360"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">{bike.name}</h3>
                   <p className="text-cyan-600 mb-4">{bike.type}</p>
-                  <div className="text-3xl font-bold text-gray-900 mb-6">{bike.price}</div>
+                  <div className="rental-price text-3xl font-bold text-gray-900 mb-6">{bike.price}</div>
                   <div className="grid grid-cols-2 gap-2 mb-6">
                     {bike.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center text-sm text-gray-600">

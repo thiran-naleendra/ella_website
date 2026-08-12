@@ -1,40 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://yourdomain.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/airport-transfer</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/hire</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/rent-vehicle</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/safari</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <url><loc>https://radeshatours.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://radeshatours.com/hire-rates</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/safari</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://radeshatours.com/rent-vehicles</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer/colombo-airport-to-ella</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer/colombo-airport-to-kandy</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer/colombo-airport-to-galle</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer/colombo-airport-to-mirissa</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/airport-transfer/colombo-airport-to-arugam-bay</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/safari/yala-national-park</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/safari/udawalawe-national-park</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/safari/bundala-national-park</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://radeshatours.com/safari/kumana-national-park</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://radeshatours.com/safari/ella-to-yala</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/safari/ella-to-udawalawe</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/car-rental-ella</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://radeshatours.com/scooter-rental-ella</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
